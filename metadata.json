@@ -1,0 +1,6 @@
+{
+  "name": "Hồn Việt — Chợ Trải Nghiệm Truyền Thống",
+  "description": "Nền tảng đặt vé và khám phá hơn 200+ trải nghiệm thủ công, ẩm thực và nghệ thuật dân gian bản địa trên khắp Việt Nam.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

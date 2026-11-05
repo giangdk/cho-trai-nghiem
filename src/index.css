@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Playfair Display', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+
+    /* Heritage Palette */
+    --color-canvas: #FAF8F5;
+    --color-surface: #F3EFEA;
+    --color-ink: #1F1A17;
+    --color-clay: #8C4A27;      /* Nâu gốm Bát Tràng */
+    --color-lacquer: #B8332A;   /* Đỏ son sơn mài */
+    --color-harvest: #D49B35;   /* Vàng lúa chín */
+    --color-jade: #2A6F64;      /* Xanh ngọc bích */
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-canvas);
+    color: var(--color-ink);
+  }
+
+  h1, h2, h3, .font-serif-heritage {
+    font-family: var(--font-display);
+  }
+
+  .font-mono-num {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Subtle Indochine Encaustic Tile & Lotus Line-Art Watermark Patterns */
+.bg-indochine-pattern {
+  background-color: #1F1A17;
+  background-image: radial-gradient(#D49B35 0.75px, transparent 0.75px), radial-gradient(#8C4A27 0.75px, #1F1A17 0.75px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+}
