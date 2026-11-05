@@ -85,12 +85,12 @@ export interface TestimonialItem {
 }
 
 export const HERITAGE_IMAGES = {
-  heroPottery: '/src/assets/images/hero_vietnam_pottery_1793893126034.jpg',
-  batTrang: '/src/assets/images/exp_battrang_pottery_1793893125527.jpg',
-  hoiAnSilk: '/src/assets/images/exp_hoian_silk_lantern_1793893126259.jpg',
-  hueTea: '/src/assets/images/exp_hue_tea_cuisine_1793893127606.jpg',
-  folkMusic: '/src/assets/images/exp_folk_music_puppetry_1793893128864.jpg',
-  riceHarvest: '/src/assets/images/exp_rice_harvest_village_1793893134431.jpg',
+  heroPottery: new URL('../assets/images/hero_vietnam_pottery_1793893126034.jpg', import.meta.url).href,
+  batTrang: new URL('../assets/images/exp_battrang_pottery_1793893125527.jpg', import.meta.url).href,
+  hoiAnSilk: new URL('../assets/images/exp_hoian_silk_lantern_1793893126259.jpg', import.meta.url).href,
+  hueTea: new URL('../assets/images/exp_hue_tea_cuisine_1793893127606.jpg', import.meta.url).href,
+  folkMusic: new URL('../assets/images/exp_folk_music_puppetry_1793893128864.jpg', import.meta.url).href,
+  riceHarvest: new URL('../assets/images/exp_rice_harvest_village_1793893134431.jpg', import.meta.url).href,
 };
 
 export const CATEGORIES: CategoryInfo[] = [
